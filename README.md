@@ -36,8 +36,7 @@ sudo apt install build-essential automake autoconf
 To build:
 
 ```sh
-aclocal
-autoconf
+autoreconf --install
 ./configure
 make
 ```
